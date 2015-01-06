@@ -14,6 +14,7 @@ FRONTPAGE=.latest.txt
 all: index.html $(OUTFILES) $(HEADER) $(FOOTER)
 
 index.html: index.md
+
 %.html: %.md $(HEADER) $(FOOTER)
 	@echo "Building $(<:.md=.html)..." 
 	@sed "/{{title}}/{s/{{title}}/`basename $< .md`/;s/-/\ /g;}" $(HEADER) > $@
@@ -41,7 +42,7 @@ new:
 publish:
 	@git add -A
 	@git commit -m "$m"
-	@git push
+	@git push origin master
 
 snapshot:
 	@tar -cvzf `date +%Y-%m-%d-`snapshot.tar.gz $(OUTFILES)
