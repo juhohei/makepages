@@ -8,6 +8,7 @@
 
 After you have the repo, you need to set your Github pages as remote repository:
 
+    $ git remote remove origin
     $ git remote add origin https://github.com/<YOURUSERNAME>/<YOURUSERNAME>.github.io.git
 
 Before you can start writing, get [example files](#examples) or make your own.
