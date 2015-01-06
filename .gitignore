@@ -1,3 +1,6 @@
 *.md
 *.markdown
 *.tar.gz
+Makefile
+.latest.txt
+includes/
