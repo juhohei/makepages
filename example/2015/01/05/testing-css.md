@@ -16,7 +16,7 @@ a block of code. It should have black background and white text.
 > This is a blockquote. It has two paragraphs as it is very witty and
 > from a super important person.
 >
-> Here's the thing which will amaze you in its widsom.
+> Here's the thing which will amaze you in its wisdom.
 <cite>A famous person</cite>
 
 ---
