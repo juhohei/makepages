@@ -21,8 +21,8 @@ a block of code. It should have black background and white text.
 
 ---
 
-![Image](../../../img/girl.jpg)
-<cite>A woman in b&w</cite>
+![Image](/img/emptybar.jpg)
+<cite>[unsplash.com](http://unsplash.com)</cite>
 
 We're almost done. After testing *italic* and **strong** fonts. And an <q>inline quote</q>.
 
