@@ -20,8 +20,16 @@ Before you can start writing, get [example files](#examples) or make your own.
     $ make
     // publish to github pages:
     $ make publish m="commit message"
+    // create a snapshot of your current page:
+    $ make snapshot
 
 ##examples
 
 To get the ready-to-go files, just run `mv example/* . && rmdir example`. You can see a live version at [my pages](http://juhohei.github.io).
+
+##running locally
+
+For previewing, use a simple static server such as `node`'s `http-server` (`cd makepages && npm install http-server && http-server`).
+
+Of course, you can also serve from another host than Github pages. Should you want to do so, modify `make publish` or create a new one.
 
