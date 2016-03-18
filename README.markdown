@@ -3,7 +3,7 @@
 `makepages` is a simple static site generator. It's built on `make`, `markdown` and some shell utilities. It also takes advantage of `git` for publishing to Github pages.
 
 ##usage
- 
+
     $ git clone https://github.com/juhohei/makepages.git && cd makepages
 
 After you have the repo, you need to set your Github pages as remote repository:
@@ -25,11 +25,11 @@ Before you can start writing, get [example files](#examples) or make your own.
 
 ##examples
 
-To get the ready-to-go files, just run `mv example/* . && rmdir example`. You can see a live version at [my pages](http://juhohei.github.io).
+To get the ready-to-go files, just run `git checkout example ** mv example/* . && rmdir example`. You can see a live version at [my pages](http://juhohei.github.io).
 
 ##running locally
 
-For previewing, use a simple static server such as `node`'s `http-server` (`cd makepages && npm install http-server && http-server`).
+  For previewing, use a simple static server such as `node`'s `http-server` (`cd makepages && npm install http-server && http-server`).
 
-Of course, you can also serve from another host than Github pages. Should you want to do so, modify `make publish` or create a new one.
+  Of course, you can also serve from another host than Github pages. Should you want to do so, modify `make publish` or create a new one.
 
