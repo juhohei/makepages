@@ -11,8 +11,6 @@ After you have the repo, you need to set your Github pages as remote repository:
     $ git remote remove origin
     $ git remote add origin https://github.com/<YOURUSERNAME>/<YOURUSERNAME>.github.io.git
 
-Before you can start writing, get [example files](#examples) or make your own.
-
     // new post:
     $ make new title="title of your post"
     // write some markdown in the post that just opened $EDITOR
@@ -30,6 +28,4 @@ To get the ready-to-go files, just run `git checkout example ** mv example/* . &
 ##running locally
 
   For previewing, use a simple static server such as `node`'s `http-server` (`cd makepages && npm install http-server && http-server`).
-
-  Of course, you can also serve from another host than Github pages. Should you want to do so, modify `make publish` or create a new one.
 
